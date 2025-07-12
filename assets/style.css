@@ -119,4 +119,37 @@ body {
     }
   }
   
+    @media (max-width: 576px) {
+    .product-card .card-text {
+      display: none; 
+    }
+
+    .product-card .card-title {
+      font-size: 0.9rem;
+    }
+
+    .product-card h6 {
+      font-size: 0.95rem;
+    }
+
+    .product-card .btn {
+      font-size: 0.75rem;
+      padding: 4px 8px;
+    }
+
+    .product-img {
+      height: 120px;
+      object-fit: contain;
+    }
+
+    #produk .row {
+      row-gap: 12px;
+    }
+  }
+
+
+  .product-img {
+    height: 180px;
+    object-fit: contain;
+  }
   
