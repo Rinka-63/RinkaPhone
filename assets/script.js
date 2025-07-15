@@ -530,8 +530,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       localStorage.removeItem("cart");
       alert(
-          "Selesaikan Proses Pembayaran dan Pesanan akan diproses.                   Terima kasih sudah berbelanja di toko kami."
-      );
+       "Selesaikan Proses Pembayaran dan Pesanan akan diproses.                   Terima kasih sudah berbelanja di toko kami."
       );
       window.location.href = "index.html";
     });
