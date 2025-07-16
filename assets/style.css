@@ -212,7 +212,7 @@ body {
         font-size: 12px;
     }
 
-     body {
+     body .page {
         padding-top: 50px;
         padding-left: 1rem !important;
         padding-right: 1rem !important;
